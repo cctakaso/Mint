@@ -1,0 +1,11 @@
+%-12345X@PJL CJLMODE
+@PJL JOB
+@PJL SET RESOLUTION = FINE
+@PJL SET COLOR-MODE = MONOCHROME
+@PJL SET MAXIMEM = ON
+@PJL SET LPARM : LIPS SW2 = ON
+@PJL ENTER LANGUAGE = LIPS
+%@P41;600;1J\[0"p<[?7;600 I[14;;;;;;p[;;;;;;;;o[0q[1v[0&} <Mincho-Medium-HMincho-MediumGothic-Medium-HGothic-MediumMincho-Medium-HPSMincho-Medium-PSGothic-Medium-HPSGothic-Medium-PSDutch-RomanDutch-BoldDutch-ItalicDutch-BoldItalicSwissSwiss-BoldSwiss-ObliqueSwiss-BoldObliqueNcourierNcourier-BoldNcourierNcourier-BoldSymbol ;1J1I2!',2<!',22!'-21! &11! &21"!!01"!!11"!!21"!!3#!0e81!13$(0Fn>Dn80U2DMe80L8%}pP0J\%-12345X@PJL SET LPARM : LIPS SW2 = OFF
+@PJL RDYMSG DISPLAY = ""
+@PJL EOJ
+%-12345X

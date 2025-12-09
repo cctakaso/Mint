@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2d103864-5227-42d8-a8cd-d8a6bc3e55dd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{130bf2cc-0b8f-4fb6-ad4d-8ba77eae3669}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{80ac729f-7006-4db2-afc1-80135a105f68}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDxdoc2txt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDxdoc2txtEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chara.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CREJIT.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DispPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocTempl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doctran.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileListDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSelectBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatCharPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyGroupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeywordPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjCash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tanbun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TanbunAddDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TanbunEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextCash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="The.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewEnv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="The.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="The_green.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="The_yerrow.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDxdoc2txt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDxdoc2txtEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chara.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CREJIT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DispPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DocTempl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="doctran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSelectBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatCharPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyGroupDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeywordPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjCash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tanbun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TanbunAddDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TanbunEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextCash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="The.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TheDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TheView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewEnv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\edt_tool.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00005.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00006.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00007.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00008.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_yerrow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainfram.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainfram_green.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainfram_yellow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mainfram_yerrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mint_afternoon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\minttype.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stateico.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\The.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\the_green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\the_read.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\the_yellow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TheDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thedoc_green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thedoc_read.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thedoc_yellow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thedoc_yerrow.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thetype.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar_green.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar_yellow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar_yerrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\txt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mint_afternoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

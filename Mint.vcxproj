@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Free Debug|Win32">
+      <Configuration>Free Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Free Release|Win32">
+      <Configuration>Free Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Green Debug|Win32">
+      <Configuration>Green Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Green Release|Win32">
+      <Configuration>Green Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Verify|Win32">
+      <Configuration>Verify</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BE4C05D-7700-418F-ADFE-09BF104417D3}</ProjectGuid>
+    <RootNamespace>Mint</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Verify|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Verify|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">
+    <OutDir>.\Green_Debug\</OutDir>
+    <IntDir>.\Green_Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Verify|Win32'">
+    <OutDir>.\Verify\</OutDir>
+    <IntDir>.\Verify\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">
+    <OutDir>.\Free_Release\</OutDir>
+    <IntDir>.\Free_Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">
+    <OutDir>.\Green_Release\</OutDir>
+    <IntDir>.\Green_Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">
+    <OutDir>.\Free_Debug\</OutDir>
+    <IntDir>.\Free_Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Green_Debug/Mint.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_VERIFY;WIN32;_WINDOWS;_DBCS;SHAR;GREEN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Green_Debug/Mint.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Green_Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Green_Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Green_Debug/Mint.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Green_Debug/Mint.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Green_Debug/Mint.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Verify|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Verify/Mint.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;_VERIFY;WIN32;_WINDOWS;_DBCS;SHAR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Verify/Mint.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Verify/</AssemblerListingLocation>
+      <ObjectFileName>.\Verify/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Verify/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Verify/Mint.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Verify/Mint.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Verify/Mint.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Free_Release/Mint.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_DBCS;FREE;YERROW;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Free_Release/Mint.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Free_Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Free_Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Free_Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Free_Release/Mint.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Free_Release/Mint.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Free_Release/Mint.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/Mint.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_DBCS;SHAR;BLUE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/Mint.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/Mint.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/Mint.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/Mint.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/Mint.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_VERIFY;WIN32;_WINDOWS;_DBCS;SHAR;BLUE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/Mint.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/Mint.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/Mint.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/Mint.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Green_Release/Mint.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_DBCS;SHAR;GREEN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Green_Release/Mint.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Green_Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Green_Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Green_Release/Mint.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Green_Release/Mint.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Green_Release/Mint.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Free_Debug/Mint.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_VERIFY;WIN32;_WINDOWS;_DBCS;FREE;YERROW;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Free_Debug/Mint.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Free_Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Free_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Free_Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0411</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Free_Debug/Mint.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Free_Debug/Mint.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Free_Debug/Mint.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="action.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="CDxdoc2txt.cpp" />
+    <ClCompile Include="CDxdoc2txtEvents.cpp" />
+    <ClCompile Include="chara.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="ConfigEdit.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="ConfigSheet.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="CREJIT.CPP">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="DispPage.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="DocTempl.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="doctran.cpp" />
+    <ClCompile Include="EnvEdit.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="FileListDlg.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="FilePage.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="FileSelectBar.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="FindDlg.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="FormatCharPage.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="FormatPage.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Hint.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Ime.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="JumpDlg.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="KeyGroupDlg.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Keyword.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="KeywordPage.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="LineHeader.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="ListCtrEx.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="ObjCash.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="ObjLay.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="PageDlg.cpp" />
+    <ClCompile Include="Profile.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Sell.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Create</PrecompiledHeader>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Create</PrecompiledHeader>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Verify|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tanbun.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="TanbunAddDlg.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="TanbunEdit.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="TextCash.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="The.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="TheDoc.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="TheView.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="UserPath.cpp" />
+    <ClCompile Include="util.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="ViewEd.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="ViewEnv.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">Green_Debug/</ProgramDataBaseFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">Green_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="The.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+    <ResourceCompile Include="The_green.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Verify|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+    <ResourceCompile Include="The_yerrow.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ResourceOutputFileName Condition="'$(Configuration)|$(Platform)'=='Free Debug|Win32'">Free_Debug/The_yerrow.res</ResourceOutputFileName>
+      <ResourceOutputFileName Condition="'$(Configuration)|$(Platform)'=='Free Release|Win32'">Free_Release/The_yerrow.res</ResourceOutputFileName>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Green Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Green Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Verify|Win32'">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action.h" />
+    <ClInclude Include="CDxdoc2txt.h" />
+    <ClInclude Include="CDxdoc2txtEvents.h" />
+    <ClInclude Include="chara.h" />
+    <ClInclude Include="ConfigEdit.h" />
+    <ClInclude Include="ConfigSheet.h" />
+    <ClInclude Include="CREJIT.H" />
+    <ClInclude Include="DateTime.h" />
+    <ClInclude Include="DispPage.h" />
+    <ClInclude Include="DocTempl.h" />
+    <ClInclude Include="doctran.h" />
+    <ClInclude Include="EnvEdit.h" />
+    <ClInclude Include="FileListDlg.h" />
+    <ClInclude Include="FilePage.h" />
+    <ClInclude Include="FileSelectBar.h" />
+    <ClInclude Include="FindDlg.h" />
+    <ClInclude Include="FormatCharPage.h" />
+    <ClInclude Include="FormatPage.h" />
+    <ClInclude Include="globdefs.h" />
+    <ClInclude Include="Hint.h" />
+    <ClInclude Include="Ime.h" />
+    <ClInclude Include="JumpDlg.h" />
+    <ClInclude Include="KeyGroupDlg.h" />
+    <ClInclude Include="Keyword.h" />
+    <ClInclude Include="KeywordPage.h" />
+    <ClInclude Include="LineHeader.h" />
+    <ClInclude Include="ListCtrEx.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="ObjCash.h" />
+    <ClInclude Include="ObjLay.h" />
+    <ClInclude Include="PageDlg.h" />
+    <ClInclude Include="Profile.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sell.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="swenv.h" />
+    <ClInclude Include="Tanbun.h" />
+    <ClInclude Include="TanbunAddDlg.h" />
+    <ClInclude Include="TanbunEdit.h" />
+    <ClInclude Include="TextCash.h" />
+    <ClInclude Include="The.h" />
+    <ClInclude Include="TheDoc.h" />
+    <ClInclude Include="TheView.h" />
+    <ClInclude Include="UserPath.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="version.h" />
+    <ClInclude Include="ViewEd.h" />
+    <ClInclude Include="ViewEnv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\edt_tool.bmp" />
+    <Image Include="res\ico00001.ico" />
+    <Image Include="res\ico00002.ico" />
+    <Image Include="res\ico00003.ico" />
+    <Image Include="res\ico00004.ico" />
+    <Image Include="res\ico00005.ico" />
+    <Image Include="res\ico00006.ico" />
+    <Image Include="res\ico00007.ico" />
+    <Image Include="res\ico00008.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\idr_yerrow.ico" />
+    <Image Include="res\mainfram.bmp" />
+    <Image Include="res\mainfram_green.bmp" />
+    <Image Include="res\mainfram_yellow.bmp" />
+    <Image Include="res\mainfram_yerrow.bmp" />
+    <Image Include="res\mint_afternoon.bmp" />
+    <Image Include="res\minttype.ico" />
+    <Image Include="res\stateico.bmp" />
+    <Image Include="res\The.ico" />
+    <Image Include="res\the_green.ico" />
+    <Image Include="res\the_read.ico" />
+    <Image Include="res\the_yellow.ico" />
+    <Image Include="res\TheDoc.ico" />
+    <Image Include="res\thedoc_green.ico" />
+    <Image Include="res\thedoc_read.ico" />
+    <Image Include="res\thedoc_yellow.ico" />
+    <Image Include="res\thedoc_yerrow.ico" />
+    <Image Include="res\thetype.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar_green.bmp" />
+    <Image Include="res\Toolbar_yellow.bmp" />
+    <Image Include="res\Toolbar_yerrow.bmp" />
+    <Image Include="res\txt.ico" />
+    <Image Include="res\mint_afternoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MDFC\Mdfc.vcxproj">
+      <Project>{087c526f-d79a-40fa-9041-c0aee28a1c58}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Unkanj\UnKanj.vcxproj">
+      <Project>{44909dc2-be08-4c30-8d7f-c7c697020446}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="The.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

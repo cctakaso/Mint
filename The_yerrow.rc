@@ -1,0 +1,1694 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif\r\n"
+    "#include ""res\\The.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#include ""l.jpn\\afxprint.rc""        // 印刷/印刷プレビュー リソース\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\the_yellow.ico"
+IDI_THETYPE1            ICON                    "res\\txt.ico"
+IDI_THETYPE2            ICON                    "res\\Thetype.ico"
+IDI_THETYPE3            ICON                    "res\\ico00001.ico"
+IDI_THETYPE4            ICON                    "res\\ico00002.ico"
+IDI_THETYPE5            ICON                    "res\\ico00003.ico"
+IDI_THETYPE6            ICON                    "res\\ico00004.ico"
+IDI_THETYPE7            ICON                    "res\\ico00005.ico"
+IDI_THETYPE8            ICON                    "res\\ico00006.ico"
+IDI_THETYPE9            ICON                    "res\\ico00007.ico"
+IDI_THETYPE10           ICON                    "res\\ico00008.ico"
+IDI_THETYPE11           ICON                    "res\\icon1.ico"
+IDR_THETYPE             ICON                    "res\\thedoc_yellow.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar_yellow.bmp"
+IDR_EDT_TOOL            BITMAP                  "res\\edt_tool.bmp"
+IDR_MAINFRAME_EDIT      BITMAP                  "res\\mainfram_yellow.bmp"
+IDB_ENV_SMALL           BITMAP                  "res\\bitmap1.bmp"
+IDB_DOWN                BITMAP                  "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  18, 18
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      IDC_FILE_CLOSE
+    SEPARATOR
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    BUTTON      ID_EDIT_FIND
+    BUTTON      ID_EDIT_FIND_NEXT
+    SEPARATOR
+    BUTTON      ID_VERTICAL
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_EDT_VIEW
+END
+
+IDR_EDT_TOOL TOOLBAR  18, 18
+BEGIN
+    BUTTON      ID_EDTL_LEFT
+    BUTTON      ID_EDTL_CENTER
+    BUTTON      ID_EDTL_RIGHT
+    SEPARATOR
+    BUTTON      ID_EDTL_DATE
+    BUTTON      ID_EDTL_TIME
+    BUTTON      ID_EDTL_INDENT_RIGHT
+    BUTTON      ID_EDTL_INDENT_LEFT
+    BUTTON      ID_EDTL_INDENT_AUTO
+    SEPARATOR
+    BUTTON      ID_EDTL_LINE_HEADER_RIGHT
+    BUTTON      ID_EDTL_LINE_HEADER_LEFT
+    BUTTON      ID_EDTL_REF_RIGHT
+    BUTTON      ID_EDTL_REF_LEFT
+    BUTTON      ID_TANBUN_EDIT
+END
+
+IDR_MAINFRAME_EDIT TOOLBAR  18, 18
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      IDC_FILE_CLOSE
+    SEPARATOR
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    BUTTON      ID_EDIT_FIND
+    BUTTON      ID_EDIT_FIND_NEXT
+    BUTTON      ID_VERTICAL
+    BUTTON      ID_ZOOM_OUT
+    BUTTON      ID_ZOOM_IN
+    BUTTON      ID_EDT_VIEW
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "ﾌｧｲﾙ(&F)"
+    BEGIN
+        MENUITEM "新規作成(&N)\tCtrl+N",        ID_FILE_NEW
+        MENUITEM "開く(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "閉じる(&Q)\tCtrl+Q",          IDC_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "印刷(&P)...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "印刷設定(&R)...",             ID_PAGE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "上書き保存(&S)\tCtrl+S",      ID_FILE_SAVE
+        MENUITEM "名前を付けて保存(&A)...",     ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "単一起動ﾓｰﾄﾞ(&S)",            ID_APP_ONLYONE
+        MENUITEM "他のﾐﾝﾄ起動(&T)",             ID_EXEC_APP
+        MENUITEM SEPARATOR
+        MENUITEM "最新のﾌｧｲﾙ",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "ｱﾌﾟﾘｹｰｼｮﾝの終了(&X)",         ID_APP_EXIT
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtrl+Z",        ID_EDIT_UNDO
+        MENUITEM "やり直し(&R)\tCtrl+Y",        ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)\tCtrl+X",        ID_EDIT_CUT
+        MENUITEM "ｺﾋﾟｰ(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "貼り付け(&P)\tCtrl+V",        ID_EDIT_PASTE
+        MENUITEM "引用張付け(&H)",              ID_EDTL_REF_PAST
+        MENUITEM SEPARATOR
+        MENUITEM "ﾌﾘｰｶｰｿﾙ(&F)",                 ID_FREE_CUR
+        MENUITEM "すべて選択(&A)\tCtrl+A",      ID_EDIT_SELECT_ALL
+    END
+    POPUP "検索(&S)"
+    BEGIN
+        MENUITEM "検索(&F)...\tCtrl+F",         ID_EDIT_FIND
+        MENUITEM "次を検索(&P)\tF3",            ID_EDIT_FIND_NEXT
+        MENUITEM "前を検索(&N)\tShift+F3",      ID_EDIT_FIND_PREV
+        MENUITEM SEPARATOR
+        MENUITEM "置換(&R)\tCtrl+R",            ID_EDIT_REPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "行ﾏｰｸ(&M)\tCtrl+M",           ID_MARK
+        MENUITEM "次のﾏｰｸ(&D)\tF2",             ID_MARK_JUMP_NEXT
+        MENUITEM "前のﾏｰｸ(&C)\tShift+F2",       ID_MARK_JUMP_PREV
+        MENUITEM "行ﾏｰｸ全削除(&M)\tCtrl+Shift+M", ID_MARK_REMOVEALL
+        MENUITEM SEPARATOR
+        MENUITEM "行ｼﾞｬﾝﾌﾟ(&G)\tCtrl+G",        ID_JUMP
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "行折返し(&L)",                ID_LIMITCOL
+        POPUP "行番号(&N)"
+        BEGIN
+            MENUITEM "行番号なし(&N)",              ID_LINENUM_NO
+            MENUITEM "行番号あり(&L)",              ID_LINENUM_LINE
+            MENUITEM "折返し行番号(&R)",            ID_LINENUM_ROW
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "ｽﾞｰﾑｲﾝ(&Z)",                  ID_ZOOM_IN
+        MENUITEM "ｽﾞｰﾑｱｳﾄ(&O)",                 ID_ZOOM_OUT
+        MENUITEM SEPARATOR
+        MENUITEM "縦書表示(&V)",                ID_VERTICAL
+        MENUITEM "ﾌｧｲﾙｾﾚｸﾀｰ(&F)",               ID_VIEW_FILE_SELECTER
+        MENUITEM "編集記号(&H)",                ID_EDT_VIEW
+        MENUITEM "画面の再表示(&W)\tF8",        ID_REDRAW
+    END
+    POPUP "設定(&T)"
+    BEGIN
+        MENUITEM "設定ﾀﾞｲｱﾛｸﾞ(&C)...\tF9",      ID_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "標準設定(&N)\tAlt+0",         ID_SELENV_NORMAL
+    END
+    POPUP "ﾍﾙﾌﾟ(&H)"
+    BEGIN
+        MENUITEM "ｵﾝﾗｲﾝﾍﾙﾌﾟ(\036C\037ﾓ)\tF1",   ID_HELP_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "ﾊﾞｰｼﾞｮﾝ情報(Mint) (&V)...",   ID_APP_ABOUT
+        MENUITEM "ﾕｰｻﾞ-登録(\036U\037ﾕ)...",    IDR_CREJIT
+    END
+END
+
+IDR_POPMENU_EDIT MENU 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtrl+Z",        ID_EDIT_UNDO
+        MENUITEM "やり直し(&R)\tCtrl+Y",        ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)\tCtrl+X",        ID_EDIT_CUT
+        MENUITEM "ｺﾋﾟｰ(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "貼り付け(&P)\tCtrl+V",        ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "ｼﾞｬﾝﾌﾟ(&G)\tCtrl+G",          ID_JUMP
+        MENUITEM "すべて選択(&A)\tCtrl+A",      ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "このｳｨﾝﾄﾞｳ以外閉じる(&Q)",    ID_WINDOW_CLOSE_NO_THIS
+    END
+END
+
+IDR_MAINFRAME_EDIT MENU 
+BEGIN
+    POPUP "ﾌｧｲﾙ(&F)"
+    BEGIN
+        MENUITEM "新規作成(&N)\tCtrl+N",        ID_FILE_NEW
+        MENUITEM "開く(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "閉じる(&Q)\tCtrl+Q",          IDC_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "上書き保存(&S)\tCtrl+S",      ID_FILE_SAVE
+        MENUITEM "名前を付けて保存(&A)...",     ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "印刷(&P)...\tCtrl+P",         ID_FILE_PRINT
+        MENUITEM "印刷設定(&R)...",             ID_PAGE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "単一起動ﾓｰﾄﾞ(&S)",            ID_APP_ONLYONE
+        MENUITEM "他のﾐﾝﾄ起動(&T)",             ID_EXEC_APP
+        MENUITEM SEPARATOR
+        MENUITEM "最新のﾌｧｲﾙ",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "ｱﾌﾟﾘｹｰｼｮﾝの終了(&X)",         ID_APP_EXIT
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "元に戻す(&U)\tCtrl+Z",        ID_EDIT_UNDO
+        MENUITEM "やり直し(&R)\tCtrl+Y",        ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)\tCtrl+X",        ID_EDIT_CUT
+        MENUITEM "ｺﾋﾟｰ(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "貼り付け(&P)\tCtrl+V",        ID_EDIT_PASTE
+        MENUITEM "追加ｺﾋﾟｰ(&C)\tCtrl+Shift+C",  ID_EDIT_COPY_APPEND
+        MENUITEM SEPARATOR
+        MENUITEM "引用ｺﾋﾟｰ(&G)",                ID_EDTL_REF_COPY
+        MENUITEM "引用張付け(&H)",              ID_EDTL_REF_PAST
+        MENUITEM SEPARATOR
+        MENUITEM "ﾌﾘｰｶｰｿﾙ(&F)",                 ID_FREE_CUR
+        MENUITEM "すべて選択(&A)\tCtrl+A",      ID_EDIT_SELECT_ALL
+    END
+    POPUP "検索(&S)"
+    BEGIN
+        MENUITEM "検索(&F)...\tCtrl+F",         ID_EDIT_FIND
+        MENUITEM "次を検索(&P)\tF3",            ID_EDIT_FIND_NEXT
+        MENUITEM "前を検索(&N)\tShift+F3",      ID_EDIT_FIND_PREV
+        MENUITEM SEPARATOR
+        MENUITEM "置換(&R)\tCtrl+R",            ID_EDIT_REPLACE
+        MENUITEM SEPARATOR
+        MENUITEM "行ﾏｰｸ(&M)\tCtrl+M",           ID_MARK
+        MENUITEM "次のﾏｰｸ(&D)\tF2",             ID_MARK_JUMP_NEXT
+        MENUITEM "前のﾏｰｸ(&C)\tShift+F2",       ID_MARK_JUMP_PREV
+        MENUITEM "行ﾏｰｸ全削除(&M)\tCtrl+Shift+M", ID_MARK_REMOVEALL
+        MENUITEM SEPARATOR
+        MENUITEM "ｲﾝﾌﾟｯﾄﾏｰｸ(&C)\tCtrl+,",       ID_INPUT_MARK
+        MENUITEM "ﾌﾘｯﾌﾟﾏｰｸ(&C)\tCtrl+K",        ID_FLP_MARK_JUMP
+        MENUITEM "ﾌﾘｯﾌﾟﾏｰｸ･ｾｯﾄ(&C)\tCtrl+Shift+K", ID_FLP_MARK
+        MENUITEM SEPARATOR
+        MENUITEM "行ｼﾞｬﾝﾌﾟ(&G)\tCtrl+G",        ID_JUMP
+        MENUITEM "対応括弧(&])\tCtrl+]",        ID_FIND_BRACKET
+        MENUITEM SEPARATOR
+        MENUITEM "ﾀｸﾞｼﾞｬﾝﾌﾟ(&G)\tF10",          ID_TAGJUMP
+    END
+    POPUP "整形(&O)"
+    BEGIN
+        MENUITEM "左揃え(&L)\tCtrl+L",          ID_EDTL_LEFT
+        MENUITEM "中央揃え(&C)",                ID_EDTL_CENTER
+        MENUITEM "右揃え(&R)",                  ID_EDTL_RIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "時刻(&T)\tCtrl+T",            ID_EDTL_TIME
+        MENUITEM "日付(&D)\tCtrl+D",            ID_EDTL_DATE
+        MENUITEM SEPARATOR
+        MENUITEM "ｲﾝﾃﾞﾝﾄ(&I)",                  ID_EDTL_INDENT_RIGHT
+        MENUITEM "ｲﾝﾃﾞﾝﾄ解除(&D)",              ID_EDTL_INDENT_LEFT
+        MENUITEM "自動ｲﾝﾃﾞﾝﾄ(&A)\tCtrl+U",      ID_EDTL_INDENT_AUTO
+        MENUITEM "箇条書き指定(&K)",            ID_EDTL_LINE_HEADER_RIGHT
+        MENUITEM "箇条書き解除(&K)",            ID_EDTL_LINE_HEADER_LEFT
+        MENUITEM SEPARATOR
+        MENUITEM "引用指定(&F)",                ID_EDTL_REF_RIGHT
+        MENUITEM "引用解除(&G)",                ID_EDTL_REF_LEFT
+        MENUITEM SEPARATOR
+        MENUITEM "短文登録(&U)...\tCtrl+B",     ID_TANBUN_ADD
+        MENUITEM "短文管理・挿入(&B)...\tCtrl+Shift+B", ID_TANBUN_EDIT
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "行折返し(&L)",                ID_LIMITCOL
+        POPUP "行番号(&N)"
+        BEGIN
+            MENUITEM "行番号なし(&N)",              ID_LINENUM_NO
+            MENUITEM "行番号あり(&L)",              ID_LINENUM_LINE
+            MENUITEM "折返し行番号(&R)",            ID_LINENUM_ROW
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "ｽﾞｰﾑｲﾝ(&Z)",                  ID_ZOOM_IN
+        MENUITEM "ｽﾞｰﾑｱｳﾄ(&O)",                 ID_ZOOM_OUT
+        MENUITEM SEPARATOR
+        MENUITEM "縦書表示(&V)",                ID_VERTICAL
+        MENUITEM "分割ｳｨﾝﾄﾞｳ(&P)",              ID_WINDOW_SPLIT
+        MENUITEM SEPARATOR
+        MENUITEM "ﾌｧｲﾙｾﾚｸﾀｰ(&F)",               ID_VIEW_FILE_SELECTER
+        MENUITEM "ｽﾃｰﾀｽ ﾊﾞｰ(&S)",               ID_VIEW_STATUS_BAR
+        MENUITEM "整形ﾂｰﾙﾊﾞｰ(&T)",              ID_EDTL
+        MENUITEM SEPARATOR
+        MENUITEM "編集記号(&H)",                ID_EDT_VIEW
+        MENUITEM "画面の再表示(&W)\tF8",        ID_REDRAW
+        MENUITEM SEPARATOR
+        MENUITEM "ﾛﾝｸﾞﾒﾆｭｰ(&E)\tCtrl+E",        ID_EDIT_MENU
+    END
+    POPUP "ｳｨﾝﾄﾞｳ(&W)"
+    BEGIN
+        MENUITEM "次のｳｨﾝﾄﾞｳ(&N)\tCtrl+Tab",    ID_WINDOW_NEXT
+        MENUITEM "前のｳｨﾝﾄﾞｳ(&P)\tCtrl+Shift+Tab", ID_WINDOW_PREV
+        MENUITEM SEPARATOR
+        MENUITEM "全て閉じる(&Q)\tCtrl+Shift+Q", ID_WINDOW_CLOSE_ALL
+        MENUITEM "このｳｨﾝﾄﾞｳ以外閉じる(&Q)",    ID_WINDOW_CLOSE_NO_THIS
+        MENUITEM SEPARATOR
+        MENUITEM "常に手前に表示(&T)",          ID_TOPMOST
+        MENUITEM SEPARATOR
+        MENUITEM "ｳｨﾝﾄﾞｳ(&W)...\tCtrl+W",       ID_WINDOW_OTHERS
+    END
+    POPUP "設定(&T)"
+    BEGIN
+        MENUITEM "設定ﾀﾞｲｱﾛｸﾞ(&C)...\tF9",      ID_CONFIG
+        MENUITEM "設定管理(&T)...\tCtrl+F9",    ID_CONFIG_EDIT
+        MENUITEM SEPARATOR
+        MENUITEM "標準設定(&N)\tAlt+0",         ID_SELENV_NORMAL
+    END
+    POPUP "ﾍﾙﾌﾟ(&H)"
+    BEGIN
+        MENUITEM "ｵﾝﾗｲﾝﾍﾙﾌﾟ(\036C\037ﾓ)\tF1",   ID_HELP_INDEX
+        MENUITEM SEPARATOR
+        MENUITEM "ﾊﾞｰｼﾞｮﾝ情報(Mint) (&V)...",   ID_APP_ABOUT
+        MENUITEM "ﾕｰｻﾞ-登録(\036U\037ﾕ)...",    IDR_CREJIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "0",            ID_SELENV_NORMAL,       VIRTKEY, ALT, NOINVERT
+    "1",            ID_WINDOW_1,            VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_SELENV_START1,       VIRTKEY, ALT, NOINVERT
+    VK_OEM_COMMA,   ID_INPUT_MARK,          VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_WINDOW_2,            VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_SELENV_START2,       VIRTKEY, ALT, NOINVERT
+    VK_OEM_6,       ID_FIND_BRACKET,        VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_WINDOW_3,            VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_SELENV_START3,       VIRTKEY, ALT, NOINVERT
+    "4",            ID_WINDOW_4,            VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_SELENV_START4,       VIRTKEY, ALT, NOINVERT
+    "5",            ID_WINDOW_5,            VIRTKEY, CONTROL, NOINVERT
+    "5",            ID_SELENV_START5,       VIRTKEY, ALT, NOINVERT
+    "6",            ID_WINDOW_6,            VIRTKEY, CONTROL, NOINVERT
+    "6",            ID_SELENV_START6,       VIRTKEY, ALT, NOINVERT
+    "7",            ID_WINDOW_7,            VIRTKEY, CONTROL, NOINVERT
+    "7",            ID_SELENV_START7,       VIRTKEY, ALT, NOINVERT
+    "8",            ID_WINDOW_8,            VIRTKEY, CONTROL, NOINVERT
+    "8",            ID_SELENV_START8,       VIRTKEY, ALT, NOINVERT
+    "9",            ID_WINDOW_9,            VIRTKEY, CONTROL, NOINVERT
+    "9",            ID_SELENV_START9,       VIRTKEY, ALT, NOINVERT
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_TANBUN_ADD,          VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_TANBUN_EDIT,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY_APPEND,    VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "D",            ID_EDTL_DATE,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_EDTL_DATE,           VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "E",            ID_EDIT_MENU,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_JUMP,                VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_FLP_MARK_JUMP,       VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_FLP_MARK,            VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "L",            ID_EDTL_LEFT,           VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_MARK,                VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_MARK_REMOVEALL,      VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDC_FILE_CLOSE,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_WINDOW_CLOSE_ALL,    VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "R",            ID_EDIT_REPLACE,        VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_EDTL_TIME,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_EDTL_TIME,           VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "U",            ID_EDTL_INDENT_AUTO,    VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F10,         ID_TAGJUMP,             VIRTKEY, NOINVERT
+    VK_F2,          ID_MARK_JUMP_NEXT,      VIRTKEY, NOINVERT
+    VK_F2,          ID_MARK_JUMP_PREV,      VIRTKEY, SHIFT, NOINVERT
+    VK_F3,          ID_EDIT_FIND_NEXT,      VIRTKEY, NOINVERT
+    VK_F3,          ID_EDIT_FIND_PREV,      VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F8,          ID_REDRAW,              VIRTKEY, NOINVERT
+    VK_F9,          ID_CONFIG,              VIRTKEY, NOINVERT
+    VK_F9,          ID_CONFIG_EDIT,         VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_TAB,         ID_WINDOW_NEXT,         VIRTKEY, CONTROL, NOINVERT
+    VK_TAB,         ID_WINDOW_PREV,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "W",            ID_WINDOW_OTHERS,       VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 211, 85
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "ﾊﾞｰｼﾞｮﾝ情報(Mint)"
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            IDR_THETYPE,IDC_STATIC,8,7,18,21
+    DEFPUSHBUTTON   "OK",IDOK,172,7,32,14,WS_GROUP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDT_INFO,13,37,181,18,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | ES_WANTRETURN | NOT WS_BORDER
+    PUSHBUTTON      "Browse support home page!",IDC_BTN_Browse,13,57,183,20,
+                    0,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STC_VERSION,32,10,109,18,SS_NOPREFIX
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,7,32,197,50
+END
+
+IDD_FIND DIALOG  0, 0, 230, 87
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "検索"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "検索(&N)",IDC_STATIC,4,12,31,8
+    COMBOBOX        IDC_CMB_FIND,36,8,128,96,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "置換(&P)",IDC_STC_REPLACE,4,28,31,8
+    COMBOBOX        IDC_CMB_REPLACE,36,24,128,96,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "大文字小文字を区別する(&C)",IDC_CHK_CASE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,36,44,112,12
+    PUSHBUTTON      "前を検索(&U)",IDC_DO_UP,172,24,50,14
+    DEFPUSHBUTTON   "検索(&F)",IDC_DO_DOWN,172,8,50,14
+    PUSHBUTTON      "置換(&R)",IDC_DO_REPLACE,172,24,50,14
+    PUSHBUTTON      "全て置換(&A)",IDC_DO_REPLACE_ALL,172,44,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,172,64,50,14
+END
+
+IDD_FORMAT DIALOG  0, 0, 206, 141
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "書式"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "表示方向",IDC_STATIC,8,12,76,48
+    CONTROL         "横書き",IDC_RAO_HORZ,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,16,28,35,10
+    CONTROL         "縦書き",IDC_RAO_VERT,"Button",BS_AUTORADIOBUTTON,16,44,
+                    44,10
+    LTEXT           "タブ桁数",IDC_STATIC,16,88,32,10
+    EDITTEXT        IDC_EDT_COL_TAB,51,84,32,14,ES_NUMBER
+    CONTROL         "Spin1",IDC_SPN_COL_TAB,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,73,71,9,14
+    CONTROL         "自動ｲﾝﾃﾞﾝﾄする",IDC_CHK_AUTOINDENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,108,68,10
+    GROUPBOX        "折返し",IDC_STATIC,96,8,104,116
+    CONTROL         "折返さない",IDC_RAO_COL_BLACK_NO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,104,32,68,10
+    CONTROL         "指定桁で折り返し",IDC_RAO_COL_BLACK,"Button",
+                    BS_AUTORADIOBUTTON,104,48,76,10
+    EDITTEXT        IDC_EDT_COL_BLACK,139,67,32,14,ES_NUMBER
+    CONTROL         "Spin2",IDC_SPN_COL_BLACK,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,162,83,9,14
+    CONTROL         "折返し行番号",IDC_CHK_LINENUM_ROW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,100,72,12
+END
+
+IDD_DISP DIALOGEX 0, 0, 203, 143
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "表示"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    LTEXT           "カラー設定",IDC_STATIC,4,4,44,8
+    CONTROL         "List1",IDC_LISTCTR_COLORS,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,12,20,88,112
+    PUSHBUTTON      "横書きﾌｫﾝﾄ...",IDC_BTN_FONT_HORZ,116,20,56,16,0,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDT_FONT_HOR,116,40,80,16,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "縦書きﾌｫﾝﾄ...",IDC_BTN_FONT_VERT,116,64,56,16,0,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDT_FONT_VERT,116,84,80,16,ES_CENTER | ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "行間設定",IDC_STATIC,116,117,32,8
+    EDITTEXT        IDC_EDT_RATIO_BETWEEN_LINE,155,113,30,14,ES_NUMBER
+    CONTROL         "Spin1",IDC_SPN_RATIO_BETWEEN_LINE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS,176,126,9,16
+    LTEXT           "％",IDC_STATIC,190,117,8,8
+END
+
+IDD_FILE DIALOGEX 0, 0, 206, 141
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "ﾌｧｲﾙ"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    CONTROL         "ｵｰﾌﾟﾝ時 編集ﾒﾆｭｰ",IDC_CHK_EDIT_MENU_ATOPEN,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_TABSTOP,76,20,76,10
+    CONTROL         "閲覧メニューでは入力不可",IDC_CHK_GIRD_ATEDITMENU,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_TABSTOP,80,24,94,10
+    LTEXT           "関連付け拡張子",IDC_STATIC,8,28,52,12
+    COMBOBOX        IDC_CMB_EXTENTS,28,40,140,68,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_UPPERCASE | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "ﾊﾞｯｸｱｯﾌﾟ設定",IDC_STATIC,4,64,196,68
+    CONTROL         "作成しない",IDC_RAO_BACKUP_NO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,8,84,48,10
+    CONTROL         "*.BAKを同一フォルダに作成",IDC_RAO_BACKUP_BAK,"Button",
+                    BS_AUTORADIOBUTTON,72,84,116,10
+    CONTROL         "指定フォルダに作成",IDC_RAO_BACKUP_FOLDER,"Button",
+                    BS_AUTORADIOBUTTON,8,100,84,10
+    PUSHBUTTON      "参照...",IDC_BTN_BACKUP_FOLDER,128,108,50,14,NOT 
+                    WS_VISIBLE | WS_DISABLED,WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDT_BACKUP_FOLDER,28,112,164,12,ES_AUTOHSCROLL
+    CONTROL         "設定 ﾛｯｸ （更新禁止）",IDC_CHK_ROCKUPDATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,8,84,10
+END
+
+IDD_JUMP DIALOG  0, 0, 187, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ｼﾞｬﾝﾌﾟ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ｼﾞｬﾝﾌﾟ先の行番号を入力して下さい。",IDC_STATIC,8,8,112,
+                    8
+    COMBOBOX        IDC_CMB_JUMP,20,24,92,84,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "折返し行番号",IDC_CHK_ROWNUM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,24,44,56,10
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,130,24,50,14
+END
+
+IDD_FORMAT_CHAR DIALOG  0, 0, 206, 139
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "禁則文字"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "英文ワードラップ(&W)",IDC_CHK_WORDWRAP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,8,84,10
+    CONTROL         "改行ぶら下げ(&W)",IDC_CHK_CRLF_BRASAGE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,8,68,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,8,28,192,108
+    CONTROL         "禁則処理(&K)",IDC_CHK_KINSOK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,24,52,10
+    CONTROL         "ﾚﾍﾞﾙ 1 （句読点ぶら下げ）",IDC_RDO_KIN_LEVEL0,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,24,40,120,12
+    CONTROL         "ﾚﾍﾞﾙ 2",IDC_RDO_KIN_LEVEL1,"Button",BS_AUTORADIOBUTTON,
+                    24,52,36,12
+    CONTROL         "ﾚﾍﾞﾙ 3",IDC_RDO_KIN_LEVEL2,"Button",BS_AUTORADIOBUTTON,
+                    60,52,36,12
+    CONTROL         "ｶｽﾀﾏｲｽﾞ",IDC_RDO_KIN_CUST,"Button",BS_AUTORADIOBUTTON,
+                    96,52,48,12
+    CONTROL         "行頭禁則文字(&F)",IDC_CHK_KIN_FIRST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,24,76,66,10
+    EDITTEXT        IDC_EDT_KIN_FIRST,32,88,152,14,ES_AUTOHSCROLL
+    CONTROL         "行末禁則文字(&L)",IDC_CHK_KIN_LAST,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,24,104,65,10
+    EDITTEXT        IDC_EDT_KIN_LAST,32,116,152,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,16,36,176,32
+END
+
+IDD_LINE_HEADER DIALOG  0, 0, 187, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "箇条書き・行頭文字挿入"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,130,24,50,14
+    COMBOBOX        IDC_CMB_LINE_HEADER,16,13,100,88,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "行頭文字",IDC_STATIC,4,4,44,8
+    CONTROL         "次回ﾀﾞｲｱﾛｸﾞを表示する",IDC_CHK_OPENDLG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,32,96,10
+    LTEXT           "※ ﾀﾞｲｱﾛｸﾞを非表示にしても、ｺﾏﾝﾄﾞ選択時にShiftｷｰを押す事により、いつでもこのﾀﾞｲｱﾛｸﾞを表示する事ができます。",
+                    IDC_STATIC,4,48,176,24
+END
+
+IDD_KEYWORD DIALOG  0, 0, 206, 149
+STYLE DS_SETFONT | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "ｷｰﾜｰﾄﾞ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "List1",IDC_LISTCTR_COLORS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,4,4,156,112
+    CONTROL         "ｸﾞﾙｰﾌﾟｷｰﾜｰﾄﾞ",IDC_CHK_GROUP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,124,59,10
+    CONTROL         "単語で見つける",IDC_CHK_WORD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,64,124,61,10
+    CONTROL         "大小文字区別する",IDC_CHK_CASE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,64,136,72,12
+    CONTROL         "下線",IDC_CHK_UNDERLINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,140,124,32,12
+    CONTROL         "一致から行末まで",IDC_CHK_ENDROW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,140,136,62,10
+    PUSHBUTTON      "追加",IDC_BTN_ADD,164,4,40,14
+    PUSHBUTTON      "削除",IDC_BTN_DEL,164,24,40,14
+    PUSHBUTTON      "編集",IDC_BTN_UPDATE,164,48,40,14
+END
+
+IDD_KEYWORD_GROUP DIALOG  0, 0, 187, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ｷｰﾜｰﾄﾞｸﾞﾙｰﾌﾟ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ｸﾞﾙｰﾌﾟ名称",IDC_STATIC,8,8,56,8
+    EDITTEXT        IDC_EDT_GROUP_NAME,12,20,100,14,ES_AUTOHSCROLL
+    LTEXT           "ｷｰﾜｰﾄﾞ",IDC_STATIC,8,40,56,8
+    EDITTEXT        IDC_EDT_KEYWORDS,12,52,160,80,ES_MULTILINE | WS_VSCROLL
+    LTEXT           "タグ指定",IDC_STATIC,28,84,32,12,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    COMBOBOX        IDC_CMB_TAG_START,72,80,36,56,CBS_DROPDOWN | 
+                    CBS_UPPERCASE | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "～",IDC_STATIC,112,84,16,12,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    COMBOBOX        IDC_CMB_TAG_END,132,80,36,56,CBS_DROPDOWN | 
+                    CBS_UPPERCASE | NOT WS_VISIBLE | WS_DISABLED | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "※ｷｰﾜｰﾄﾞは半角空白文字区切りで入力して下さい。\n※ﾀｸﾞを指定するとその間だけｷｰﾜｰﾄﾞが有効になります。",
+                    IDC_STATIC,8,100,172,20,NOT WS_VISIBLE | WS_DISABLED
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,130,24,50,14
+    LTEXT           "※ｷｰﾜｰﾄﾞは半角空白文字区切りで入力して下さい。",
+                    IDC_STATIC,12,140,156,12
+END
+
+IDD_CONFIG_EDIT DIALOG  0, 0, 207, 123
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "設定管理"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "List1",IDC_LSTCTR,"SysListView32",LVS_SINGLESEL | 
+                    WS_BORDER | WS_TABSTOP,4,8,140,108
+    DEFPUSHBUTTON   "閉じる",IDOK,152,8,48,14
+    PUSHBUTTON      "追加...",IDC_BTN_ADD,152,28,48,14
+    PUSHBUTTON      "変更...",IDC_BTN_EDIT,152,46,48,14
+    PUSHBUTTON      "削除",IDC_BTN_DEL,152,68,48,14
+    PUSHBUTTON      "コピー追加...",IDC_BTN_ADD_COPY,152,100,48,14
+END
+
+IDD_ENV_EDIT DIALOG  0, 0, 226, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "設定編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "設定名称",IDC_STATIC,8,15,36,8
+    EDITTEXT        IDC_EDT_NAME,48,12,100,14,ES_AUTOHSCROLL
+    LTEXT           "ﾃﾝﾌﾟﾚｰﾄﾌｧｲﾙ名",IDC_STATIC,8,35,52,8
+    EDITTEXT        IDC_EDT_FILENAME,64,32,72,14,ES_AUTOHSCROLL
+    LTEXT           "関連付け拡張子",IDC_STATIC,8,56,60,8
+    COMBOBOX        IDC_CMB_EXTENTS,20,68,140,68,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_UPPERCASE | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,168,12,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,168,32,50,14
+    LTEXT           "※ 設定に関連付けるﾌｧｲﾙの種類（拡張子）を指定する事ができます。複数ある場合は、半角空白文字で区切って下さい。",
+                    IDC_STATIC,16,88,184,20
+    PUSHBUTTON      "...",IDC_BTN_REF,140,32,10,16
+END
+
+IDD_FILE_SELECT_BAR DIALOG  0, 0, 228, 19
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB_SELECT,"SysTabControl32",TCS_TOOLTIPS,0,0,
+                    192,16
+END
+
+IDD_TANBUN_ADD DIALOG  0, 0, 211, 147
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "短文登録"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "短文ｷｰﾜｰﾄﾞ",IDC_STATIC,8,12,40,8
+    EDITTEXT        IDC_EDT_KEY,52,8,80,14,ES_AUTOHSCROLL
+    LTEXT           "短文内容",IDC_STATIC,8,32,44,8
+    EDITTEXT        IDC_EDT_TANBUN,16,44,188,60,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "短文の使用方法...",IDC_BTN_HOWTO,8,124,60,14
+    GROUPBOX        "",IDC_STATIC,72,108,132,32
+    CONTROL         "ﾚｲｱｳﾄする",IDC_CHK_LAYOUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,68,108,49,10
+    CONTROL         "左揃え",IDC_RDO_LEFT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,80,124,36,10
+    CONTROL         "中央揃え",IDC_RDO_CENTER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,120,124,43,10
+    CONTROL         "右揃え",IDC_RDO_RIGHT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,164,124,36,10
+    DEFPUSHBUTTON   "登録",IDOK,156,8,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,156,25,50,14
+    LTEXT           "短文ｷｰﾜｰﾄﾞを入力後、Shift+ｽﾍﾟｰｽｷｰを押すと、\n登録内容に変換されます。\n同じｷｰﾜｰﾄﾞに複数の登録内容を別途登録する事も可能です。",
+                    IDC_STATIC,4,68,200,28,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "※ 文書中の使い方",IDC_STATIC,4,56,60,8,NOT WS_VISIBLE | 
+                    WS_DISABLED
+END
+
+IDD_TANBUN_EDIT DIALOG  0, 0, 214, 123
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "短文編集"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    CONTROL         "List1",IDC_LSTCTR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    WS_BORDER | WS_TABSTOP,4,8,148,108
+    DEFPUSHBUTTON   "閉じる",IDCANCEL,160,8,48,14
+    PUSHBUTTON      "追加...",IDC_BTN_ADD,160,60,48,14
+    PUSHBUTTON      "変更...",IDC_BTN_EDIT,160,78,48,14
+    PUSHBUTTON      "削除",IDC_BTN_DEL,160,100,48,14
+    PUSHBUTTON      "文書へ挿入",IDOK,160,32,48,14
+END
+
+IDD_CREJIT DIALOGEX 0, 0, 211, 139
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "クレジット"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,152,9,50,15,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,152,29,50,15,0,WS_EX_STATICEDGE
+    ICON            IDR_MAINFRAME,IDC_STATIC,9,7,20,20
+    LTEXT           "本ソフトウエアの試用期間は約３週間です、\n残りは",
+                    IDC_STATIC,11,41,133,20
+    LTEXT           "秒です。",IDC_STATIC,84,62,39,11
+    LTEXT           "こんにちは、ダウンロードありがとうございます。\nユーザー登録をお済みの方はパスワードを入力してください。まだの方は、OKボタンのみ押してどうぞお試し下さい。",
+                    IDC_STATIC,10,105,181,33,NOT WS_GROUP
+    EDITTEXT        IDC_TIMER_USERID,94,79,105,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "",IDC_TIMER_TIME,15,62,64,10,NOT WS_GROUP
+    LTEXT           "パスワード:",IDC_STATIC,10,81,46,11
+    LTEXT           "",IDC_CRJTMPID,187,57,15,13
+    LTEXT           "未登録",IDC_MITOROKU,58,81,32,8
+    LTEXT           "",IDC_STC_VERSION,36,10,111,25,SS_NOPREFIX
+END
+
+IDD_FILE_LIST DIALOG  0, 0, 295, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ｳｨﾝﾄﾞｳ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "ｳｨﾝﾄﾞｳの選択(&W)",IDC_STATIC,7,7,72,8
+    LISTBOX         IDC_LST_WINDOWS,7,20,281,133,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "ｿｰﾄ",IDC_CHK_SORT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    7,159,32,13
+    DEFPUSHBUTTON   "OK",IDOK,191,158,45,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,243,158,45,14
+    LISTBOX         IDC_LST_WINDOWS_SORT,7,20,281,133,LBS_SORT | 
+                    LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | 
+                    LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_PAGE_SETUP_DIALOG DIALOG  0, 0, 263, 155
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "印刷設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    GROUPBOX        "余白設定",IDC_BOX,10,4,180,57
+    LTEXT           "左",IDC_STATIC,35,20,15,8
+    EDITTEXT        IDC_EDIT_LM,51,18,34,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPN_LM,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,77,14,9,14
+    LTEXT           "mm",IDC_STATIC,87,24,13,8
+    LTEXT           "右",IDC_STATIC,109,20,11,8
+    EDITTEXT        IDC_EDIT_RM,128,18,34,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPN_RM,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,158,16,9,14
+    LTEXT           "mm",IDC_STATIC,87,44,13,8
+    LTEXT           "上",IDC_STATIC,35,40,14,8
+    EDITTEXT        IDC_EDIT_TM,51,38,34,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPN_TM,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,75,34,9,14
+    LTEXT           "mm",IDC_STATIC,165,24,13,8
+    LTEXT           "下",IDC_STATIC,109,40,11,8
+    EDITTEXT        IDC_EDIT_BM,128,38,34,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPN_BM,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,158,34,9,14
+    LTEXT           "mm",IDC_STATIC,165,44,13,8
+    LTEXT           "ﾍｯﾀﾞｰ",IDC_STATIC,10,66,28,8
+    COMBOBOX        IDC_CMB_HEADER_LEFT,10,77,84,151,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_HEADER_CENTER,91,77,84,156,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_HEADER_RIGHT,173,77,84,171,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ﾌｯﾀｰ",IDC_STATIC,10,95,28,8
+    COMBOBOX        IDC_CMB_FOOTER_LEFT,10,106,84,167,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_FOOTER_CENTER,91,106,84,162,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_FOOTER_RIGHT,173,106,84,177,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "行番号",IDC_CHK_LINENUM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,125,40,10
+    CONTROL         "ｶﾗｰ/ｸﾞﾚｰｽｹｰﾙ 印刷",IDC_CHK_COLOR,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,115,139,80,10
+    CONTROL         "ﾍｯﾀﾞｰﾗｲﾝ",IDC_CHK_HEADER_LINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,208,125,47,10
+    CONTROL         "ﾌｯﾀｰﾗｲﾝ",IDC_CHK_FOOTER_LINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,208,139,46,10
+    DEFPUSHBUTTON   "OK",IDOK,200,8,55,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,200,26,55,14
+    PUSHBUTTON      "ﾌﾟﾘﾝﾀの設定...",IDC_BTN_PRINT_SETUP,200,47,55,14
+    PUSHBUTTON      "ﾍﾟｰｼﾞの設定...",IDC_BTN_PAGE_SETUP,11,137,48,14,NOT 
+                    WS_VISIBLE | WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,6,0
+ PRODUCTVERSION 1,3,6,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "og."
+            VALUE "FileDescription", "CoolMint Editor (Yellow)"
+            VALUE "FileVersion", "1, 3, 6, 0"
+            VALUE "InternalName", "Mint"
+            VALUE "LegalCopyright", "Copyright (C) 1998.6 - 1999.7"
+            VALUE "OriginalFilename", "Mint.EXE"
+            VALUE "ProductName", "CoolMint ｱﾌﾟﾘｹｰｼｮﾝ"
+            VALUE "ProductVersion", "1, 3, 6, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_FORMAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_DISP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_JUMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_FORMAT_CHAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_LINE_HEADER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_KEYWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+
+    IDD_KEYWORD_GROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_CONFIG_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_ENV_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 108
+    END
+
+    IDD_FILE_SELECT_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 12
+    END
+
+    IDD_TANBUN_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_TANBUN_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_FILE_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_LINE_HEADER DLGINIT
+BEGIN
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x2e31, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 4, 0
+0x6128, 0x0029, 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x2941, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 5, 0
+0x5082, 0x4481, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 5, 0
+0x8182, 0x6a81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 5, 0
+0x6082, 0x6a81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 4, 0
+0x4087, 0x0020, 
+    IDC_CMB_LINE_HEADER, 0x403, 5, 0
+0x5487, 0x4481, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 5, 0
+0x4183, 0x6a81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x4581, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x9b81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0xa081, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x9e81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x9981, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x9c81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0xa181, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x9f81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0x9a81, "\000" 
+    IDC_CMB_LINE_HEADER, 0x403, 3, 0
+0xa681, "\000" 
+    0
+END
+
+IDD_KEYWORD_GROUP DLGINIT
+BEGIN
+    IDC_CMB_TAG_START, 0x403, 2, 0
+0x003c, 
+    IDC_CMB_TAG_START, 0x403, 2, 0
+0x0028, 
+    IDC_CMB_TAG_START, 0x403, 2, 0
+0x005b, 
+    IDC_CMB_TAG_START, 0x403, 2, 0
+0x007b, 
+    IDC_CMB_TAG_END, 0x403, 2, 0
+0x003e, 
+    IDC_CMB_TAG_END, 0x403, 2, 0
+0x0029, 
+    IDC_CMB_TAG_END, 0x403, 2, 0
+0x005d, 
+    IDC_CMB_TAG_END, 0x403, 2, 0
+0x007d, 
+    0
+END
+
+IDD_ENV_EDIT DLGINIT
+BEGIN
+    IDC_CMB_EXTENTS, 0x403, 4, 0
+0x5854, 0x0054, 
+    IDC_CMB_EXTENTS, 0x403, 8, 0
+0x4142, 0x2054, 0x4e49, 0x0049, 
+    IDC_CMB_EXTENTS, 0x403, 9, 0
+0x5448, 0x4c4d, 0x4820, 0x4d54, "\000" 
+    IDC_CMB_EXTENTS, 0x403, 27, 0
+0x2043, 0x5043, 0x2050, 0x2048, 0x414d, 0x204b, 0x5341, 0x204d, 0x4e49, 
+0x204c, 0x4352, 0x4420, 0x4645, "\000" 
+    IDC_CMB_EXTENTS, 0x403, 16, 0
+0x4256, 0x2050, 0x5246, 0x204d, 0x4142, 0x2053, 0x4c43, 0x0053, 
+    0
+END
+
+IDD_FILE DLGINIT
+BEGIN
+    IDC_CMB_EXTENTS, 0x403, 4, 0
+0x5854, 0x0054, 
+    IDC_CMB_EXTENTS, 0x403, 8, 0
+0x4142, 0x2054, 0x4e49, 0x0049, 
+    IDC_CMB_EXTENTS, 0x403, 9, 0
+0x5448, 0x4c4d, 0x4820, 0x4d54, "\000" 
+    IDC_CMB_EXTENTS, 0x403, 27, 0
+0x2043, 0x5043, 0x2050, 0x2048, 0x414d, 0x204b, 0x5341, 0x204d, 0x4e49, 
+0x204c, 0x4352, 0x4420, 0x4645, "\000" 
+    IDC_CMB_EXTENTS, 0x403, 16, 0
+0x4256, 0x2050, 0x5246, 0x204d, 0x4142, 0x2053, 0x4c43, 0x0053, 
+    0
+END
+
+IDD_PAGE_SETUP_DIALOG DLGINIT
+BEGIN
+    IDC_CMB_HEADER_LEFT, 0x403, 1, 0
+"\000" 
+    IDC_CMB_HEADER_LEFT, 0x403, 8, 0
+0xcd5b, 0xb0df, 0xdebc, 0x005d, 
+    IDC_CMB_HEADER_LEFT, 0x403, 18, 0
+0xcd5b, 0xb0df, 0xdebc, 0x2f5d, 0x915b, 0xcd8d, 0xb0df, 0xdebc, 0x005d, 
+
+    IDC_CMB_HEADER_LEFT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_HEADER_LEFT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_HEADER_LEFT, 0x403, 9, 0
+0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, "\000" 
+    IDC_CMB_HEADER_LEFT, 0x403, 16, 0
+0xcc5b, 0xb2a7, 0xbbd9, 0xbdb2, 0x5dde, 0xca20, 0xb2de, 0x00c4, 
+    IDC_CMB_HEADER_LEFT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_HEADER_LEFT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_HEADER_LEFT, 0x403, 10, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x005d, 
+    IDC_CMB_HEADER_LEFT, 0x403, 19, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x5c5d, 0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, 
+"\000" 
+    IDC_CMB_HEADER_CENTER, 0x403, 1, 0
+"\000" 
+    IDC_CMB_HEADER_CENTER, 0x403, 8, 0
+0xcd5b, 0xb0df, 0xdebc, 0x005d, 
+    IDC_CMB_HEADER_CENTER, 0x403, 18, 0
+0xcd5b, 0xb0df, 0xdebc, 0x2f5d, 0x915b, 0xcd8d, 0xb0df, 0xdebc, 0x005d, 
+
+    IDC_CMB_HEADER_CENTER, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_HEADER_CENTER, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_HEADER_CENTER, 0x403, 9, 0
+0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, "\000" 
+    IDC_CMB_HEADER_CENTER, 0x403, 16, 0
+0xcc5b, 0xb2a7, 0xbbd9, 0xbdb2, 0x5dde, 0xca20, 0xb2de, 0x00c4, 
+    IDC_CMB_HEADER_CENTER, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_HEADER_CENTER, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_HEADER_CENTER, 0x403, 10, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x005d, 
+    IDC_CMB_HEADER_CENTER, 0x403, 19, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x5c5d, 0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, 
+"\000" 
+    IDC_CMB_HEADER_RIGHT, 0x403, 1, 0
+"\000" 
+    IDC_CMB_HEADER_RIGHT, 0x403, 8, 0
+0xcd5b, 0xb0df, 0xdebc, 0x005d, 
+    IDC_CMB_HEADER_RIGHT, 0x403, 18, 0
+0xcd5b, 0xb0df, 0xdebc, 0x2f5d, 0x915b, 0xcd8d, 0xb0df, 0xdebc, 0x005d, 
+
+    IDC_CMB_HEADER_RIGHT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_HEADER_RIGHT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_HEADER_RIGHT, 0x403, 9, 0
+0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, "\000" 
+    IDC_CMB_HEADER_RIGHT, 0x403, 16, 0
+0xcc5b, 0xb2a7, 0xbbd9, 0xbdb2, 0x5dde, 0xca20, 0xb2de, 0x00c4, 
+    IDC_CMB_HEADER_RIGHT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_HEADER_RIGHT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_HEADER_RIGHT, 0x403, 10, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x005d, 
+    IDC_CMB_HEADER_RIGHT, 0x403, 19, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x5c5d, 0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, 
+"\000" 
+    IDC_CMB_FOOTER_LEFT, 0x403, 1, 0
+"\000" 
+    IDC_CMB_FOOTER_LEFT, 0x403, 8, 0
+0xcd5b, 0xb0df, 0xdebc, 0x005d, 
+    IDC_CMB_FOOTER_LEFT, 0x403, 18, 0
+0xcd5b, 0xb0df, 0xdebc, 0x2f5d, 0x915b, 0xcd8d, 0xb0df, 0xdebc, 0x005d, 
+
+    IDC_CMB_FOOTER_LEFT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_FOOTER_LEFT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_FOOTER_LEFT, 0x403, 9, 0
+0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, "\000" 
+    IDC_CMB_FOOTER_LEFT, 0x403, 16, 0
+0xcc5b, 0xb2a7, 0xbbd9, 0xbdb2, 0x5dde, 0xca20, 0xb2de, 0x00c4, 
+    IDC_CMB_FOOTER_LEFT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_FOOTER_LEFT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_FOOTER_LEFT, 0x403, 10, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x005d, 
+    IDC_CMB_FOOTER_LEFT, 0x403, 19, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x5c5d, 0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, 
+"\000" 
+    IDC_CMB_FOOTER_CENTER, 0x403, 1, 0
+"\000" 
+    IDC_CMB_FOOTER_CENTER, 0x403, 8, 0
+0xcd5b, 0xb0df, 0xdebc, 0x005d, 
+    IDC_CMB_FOOTER_CENTER, 0x403, 18, 0
+0xcd5b, 0xb0df, 0xdebc, 0x2f5d, 0x915b, 0xcd8d, 0xb0df, 0xdebc, 0x005d, 
+
+    IDC_CMB_FOOTER_CENTER, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_FOOTER_CENTER, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_FOOTER_CENTER, 0x403, 9, 0
+0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, "\000" 
+    IDC_CMB_FOOTER_CENTER, 0x403, 16, 0
+0xcc5b, 0xb2a7, 0xbbd9, 0xbdb2, 0x5dde, 0xca20, 0xb2de, 0x00c4, 
+    IDC_CMB_FOOTER_CENTER, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_FOOTER_CENTER, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_FOOTER_CENTER, 0x403, 10, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x005d, 
+    IDC_CMB_FOOTER_CENTER, 0x403, 19, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x5c5d, 0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, 
+"\000" 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 1, 0
+"\000" 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 8, 0
+0xcd5b, 0xb0df, 0xdebc, 0x005d, 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 18, 0
+0xcd5b, 0xb0df, 0xdebc, 0x2f5d, 0x915b, 0xcd8d, 0xb0df, 0xdebc, 0x005d, 
+
+    IDC_CMB_FOOTER_RIGHT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 11, 0
+0x8c5b, 0x8dbb, 0x93dd, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 9, 0
+0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, "\000" 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 16, 0
+0xcc5b, 0xb2a7, 0xbbd9, 0xbdb2, 0x5dde, 0xca20, 0xb2de, 0x00c4, 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x95fa, 0x5d74, "\000" 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 11, 0
+0x8d5b, 0x9058, 0x9356, 0x8efa, 0x5d9e, "\000" 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 10, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x005d, 
+    IDC_CMB_FOOTER_RIGHT, 0x403, 19, 0
+0xcc5b, 0xd9ab, 0xdec0, 0xbc96, 0x5c5d, 0xcc5b, 0xb2a7, 0x96d9, 0x5dbc, 
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CUR_VERT            CURSOR                  "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Mint\n\nMint\n\n\nMint.Document\nMint Document"
+    IDR_CREJIT              "ユーザー登録番号を設定します"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Mint"
+    AFX_IDS_IDLEMESSAGE     "ﾚﾃﾞｨ"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "上書"
+    ID_INDICATOR_REC        "記録"
+    ID_INDICATOR_KANA       "ｶﾅ"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELENV_START26       "設定変更"
+    ID_SELENV_START27       "設定変更"
+    ID_SELENV_START28       "設定変更"
+    ID_SELENV_START29       "設定変更"
+    ID_SELENV_START30       "設定変更"
+    ID_TANBUN_ADD           "短文登録を行う\n短文登録"
+    ID_TANBUN_EDIT          "短文登録の管理編集行います\n短文管理"
+    ID_INDICATOR_ROW_CAL    " 1行 1桁　　　　　"
+    IDC_FILE_CLOSE          "現在表示中の文書を閉じる\n閉じる"
+    ID_WINDOW_NEXT          "次のｳｨﾝﾄﾞｳを表示する\n次のｳｨﾝﾄﾞｳ"
+    ID_WINDOW_PREV          "前のｳｨﾝﾄﾞｳを表示する\n前のｳｨﾝﾄﾞｳ"
+    ID_WINDOW_CLOSE_ALL     "全てのｳｨﾝﾄﾞｳを閉じます\n全て閉じる"
+    ID_WINDOW_CLOSE_NO_THIS "このｳｨﾝﾄﾞｳ以外閉じます\nこのｳｨﾝﾄﾞｳ以外閉じる"
+    ID_WINDOW_1             "ﾌｧｲﾙｾﾚｸﾀｰの表示\nﾌｧｲﾙｾﾚｸﾀｰ"
+    ID_WINDOW_2             "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_3             "ｳｨﾝﾄﾞｳ表示切替"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "新規にﾌｧｲﾙを作成\n新規ﾌｧｲﾙ"
+    ID_FILE_OPEN            "既存のﾌｧｲﾙを開く\n開く"
+    ID_FILE_CLOSE           "作業中のﾌｧｲﾙを閉じる\n閉じる"
+    ID_FILE_SAVE            "作業中のﾌｧｲﾙを保存\n保存"
+    ID_FILE_SAVE_AS         "作業中のﾌｧｲﾙに名前を付けて保存\n名前をつけて保存"
+    ID_FILE_PAGE_SETUP      "印刷設定の変更\n印刷設定"
+    ID_FILE_PRINT_SETUP     "ﾌﾟﾘﾝﾀ/印刷設定の変更\nﾌﾟﾘﾝﾀの設定"
+    ID_FILE_PRINT           "作業中のﾌｧｲﾙを印刷\n印刷"
+    ID_FILE_PRINT_PREVIEW   "ﾌﾙｽｸﾘｰﾝで表示\n印刷ﾌﾟﾚﾋﾞｭｰ"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "ﾌﾟﾛｸﾞﾗﾑの情報、ﾊﾞｰｼﾞｮﾝそして著作権を表示\nﾊﾞｰｼﾞｮﾝ情報"
+    ID_APP_EXIT             "ｱﾌﾟﾘｹｰｼｮﾝを終了し、ﾌｧｲﾙの保存を指示\n終了"
+    ID_HELP_INDEX           "ｵﾝﾗｲﾝﾍﾙﾌﾟの表示\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE2       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE3       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE4       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE5       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE6       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE7       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE8       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE9       "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE10      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE11      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE12      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE13      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE14      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE15      "指定のﾌｧｲﾙを開く"
+    ID_FILE_MRU_FILE16      "指定のﾌｧｲﾙを開く"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "次のｳｨﾝﾄﾞｳに切り替える\n次ﾍﾟｰｼﾞ"
+    ID_PREV_PANE            "前のｳｨﾝﾄﾞｳに切り替える\n前ﾍﾟｰｼﾞ"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "作業中のｳｨﾝﾄﾞｳを分割\n分割ｳｨﾝﾄﾞｳ"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "選択範囲を消去\n消去"
+    ID_EDIT_CLEAR_ALL       "すべて消去\nすべて消去"
+    ID_EDIT_COPY            "選択範囲をｺﾋﾟｰしてｸﾘｯﾌﾟﾎﾞｰﾄﾞに保存\nｺﾋﾟ-"
+    ID_EDIT_CUT             "選択範囲を切り取ってｸﾘｯﾌﾟﾎﾞｰﾄﾞに保存\n切り取り"
+    ID_EDIT_FIND            "指定した文字列の検索\n検索"
+    ID_EDIT_PASTE           "ｸﾘｯﾌﾟﾎﾞｰﾄﾞの内容を貼り付け\n貼り付け"
+    ID_EDIT_REPEAT          "直前に行った動作を繰り返す\nﾘﾋﾟｰﾄ"
+    ID_EDIT_REPLACE         "指定した文字列を他の文字列で置換\n置換"
+    ID_EDIT_SELECT_ALL      "ﾌｧｲﾙ全体を選択\nすべて選択"
+    ID_EDIT_UNDO            "直前に行った動作を元に戻す\n元に戻す"
+    ID_EDIT_REDO            "直前に行った動作を繰り返す\nやり直し"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "ﾂｰﾙ ﾊﾞｰの表示/非表示\nﾂｰﾙ ﾊﾞｰの表示/非表示"
+    ID_VIEW_STATUS_BAR      "ｽﾃｰﾀｽ ﾊﾞｰの表示/非表示\nｽﾃｰﾀｽ ﾊﾞｰの表示/非表示"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "ｳｨﾝﾄﾞｳのｻｲｽﾞを変更"
+    AFX_IDS_SCMOVE          "ｳｨﾝﾄﾞｳの位置を変更"
+    AFX_IDS_SCMINIMIZE      "ｳｨﾝﾄﾞｳをｱｲｺﾝ化する"
+    AFX_IDS_SCMAXIMIZE      "ｳｨﾝﾄﾞｳを最大表示にする"
+    AFX_IDS_SCNEXTWINDOW    "次のｳｨﾝﾄﾞｳに切り替える"
+    AFX_IDS_SCPREVWINDOW    "前のｳｨﾝﾄﾞｳに切り替える"
+    AFX_IDS_SCCLOSE         "作業中のｳｨﾝﾄﾞｳを閉じ、変更したﾌｧｲﾙの保存を指示"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "ｳｨﾝﾄﾞｳを通常のｻｲｽﾞに戻す"
+    AFX_IDS_SCTASKLIST      "ｱﾌﾟﾘｹｰｼｮﾝの切り替え"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "印刷ﾌﾟﾚﾋﾞｭｰ ﾓｰﾄﾞを閉じる\nﾌﾟﾚﾋﾞｭｰのｷｬﾝｾﾙ"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ZOOM_OUT             "縮小表示\nｽﾞｰﾑｱｳﾄ"
+    ID_ZOOM_IN              "拡大表示\nｽﾞｰﾑｲﾝ"
+    ID_PAGE_SETUP           "ﾍﾟｰｼﾞ/ﾌﾟﾘﾝﾀのﾞ設定\n印刷設定"
+    ID_VERTICAL             "縦書表示\n縦書"
+    ID_FREE_CUR             "ﾌﾘｰｶｰｿﾙにします\nﾌﾘｰｶｰｿﾙ"
+    ID_LINENUM              "行番号切替え\n行番号"
+    ID_LINENUM_NO           "行番号なし\n行番号なし"
+    ID_LINENUM_LINE         "行番号あり\n行番号あり"
+    ID_LINENUM_ROW          "折返し行を含む番号表示\n折返し行番号"
+    ID_LIMITCOL             "行折返し\n行折返し"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_FIND_NEXT       "次を検索する\n次を検索"
+    ID_CONFIG_DSP           "表示設定する\n表示設定"
+    ID_CONFIG_FORMAT        "書式設定する\n書式設定"
+    ID_CONFIG               "現在の設定ダイアログ表示\n設定"
+    ID_TOPMOST              "ｳｨﾝﾄﾞｳを一番手前に表示\nｳｨﾝﾄﾞｳﾄｯﾌﾟ"
+    ID_JUMP                 "指定行へｼﾞｬﾝﾌﾟします\n指定行へｼﾞｬﾝﾌﾟ"
+    ID_EDTL_REF             "引用ﾏｰｸを付ける\n引用指定"
+    ID_EDTL_DOT             "箇条書き\n箇条書き"
+    ID_EDTL_REF_RIGHT       "引用ﾏｰｸを付ける\n引用指定"
+    ID_EDTL_REF_LEFT        "引用ﾏｰｸを解除\n引用解除"
+    ID_EDTL_LEFT            "左揃えにする\n左揃え"
+    ID_EDTL_CENTER          "中央揃えにする\n中央揃え"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDTL_RIGHT           "右揃えにする\n右揃え"
+    ID_EDTL_REF_COPY        "引用ﾏｰｸ付きでｺﾋﾟｰ\n引用ｺﾋﾟｰ"
+    ID_EDTL_TIME            "現在時刻の挿入\n時刻挿入"
+    ID_EDTL                 "整形ﾂｰﾙﾊﾞｰの表示\n整形ﾂｰﾙﾊﾞｰ"
+    ID_EDT_VIEW             "編集記号の表示\n編集記号"
+    ID_EDTL_REF_PAST        "引用ﾏｰｸ付きで張り付け\n引用張り付け"
+    ID_EDTL_CHAR_CHANGE     "文字種類を変換する\n文字変換"
+    ID_EDTL_TANBUN          "短文の登録/挿入\n短文登録"
+    ID_EDIT_FIND_PREV       "前を検索する\\前を検索"
+    ID_MARK                 "現在ｶｰｿﾙのある行をﾏｰｸ\nﾏｰｸ"
+    ID_MARK_JUMP_PREV       "前のﾌﾞｯｸﾏｰｸへｼﾞｬﾝﾌﾟ\n前のﾏｰｸ"
+    ID_EDTL_DATE            "現在日付の挿入\n日付挿入"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TOOL_DOCINFO         "文書または選択領域情報\n文書情報"
+    ID_EDTL_INDENT          "ｲﾝﾃﾝﾄを挿入\nｲﾝﾃﾞﾝﾄ挿入"
+    ID_EDTL_INDENT_         "ｲﾝﾃﾝﾄを解除\nｲﾝﾃﾞﾝﾄ解除"
+    ID_EDTL_INDENT_RIGHT    "ｲﾝﾃﾝﾄを挿入\nｲﾝﾃﾞﾝﾄ挿入"
+    ID_EDTL_INDENT_LEFT     "ｲﾝﾃﾝﾄを解除\nｲﾝﾃﾞﾝﾄ解除"
+    ID_EDTL_INDENT_AUTO     "自動ｲﾝﾃﾝﾄ状態ﾞ\n自動ｲﾝﾃﾞﾝﾄ"
+    ID_TOOL_OUTLINE         "ｱｳﾄﾗｲﾝ･ﾌﾟﾛｾｯｻｰ起動\nｱｳﾄﾗｲﾝ･ﾌﾟﾛｾｯｻｰ"
+    ID_FILE_REOPEN          "現在文書を再ｵｰﾌﾟﾝする\n再ｵｰﾌﾟﾝ"
+    ID_FILE_REOPEN_SJIS     "現在文書を、ｼﾌﾄJISｺｰﾄﾞで再ｵｰﾌﾟﾝする\n再ｵｰﾌﾟﾝ (ｼﾌﾄJIS)"
+    ID_FILE_REOPEN_JIS      "現在文書を、JISｺｰﾄﾞで再ｵｰﾌﾟﾝする\n再ｵｰﾌﾟﾝ (JIS)"
+    ID_FILE_REOPEN_EUC      "現在文書を、EUCｺｰﾄﾞで再ｵｰﾌﾟﾝする\n再ｵｰﾌﾟﾝ (EUC)"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FLP_MARK             "現在のｶｰｿﾙ位置をﾏｰｸ\nﾌﾘｯﾌﾟﾏｰｸ･ｾｯﾄ"
+    ID_FLP_MARK_JUMP        "現在ｶｰｿﾙ位置をﾏｰｸして前回ﾏｰｸへｼﾞｬﾝﾌﾟ\nﾌﾘｯﾌﾟﾏｰｸ･ｼﾞｬﾝﾌﾟ"
+    ID_EDIT_MENU            "ﾛﾝｸﾞﾒﾆｭｰﾓｰﾄﾞにする\nﾛﾝｸﾞﾒﾆｭｰ"
+    ID_EDIT_COPY_APPEND     "選択範囲をｺﾋﾟｰしてｸﾘｯﾌﾟﾎﾞｰﾄﾞに追加保存\n追加ｺﾋﾟ-"
+    ID_EDTL_REMOVE_WHITE    "余分な行末空白文字を削除する\n余分空白除去"
+    ID_EDTL_APPEND_STR      "行頭に指定文字列を挿入する\n行頭文字列挿入"
+    ID_EDTL_LINE_HEADER     "箇条書き\n箇条書き指定"
+    ID_EDTL_LINE_HEADER_RIGHT "選択範囲を箇条書きにする\n箇条書き指定"
+    ID_EDTL_LINE_HEADER_LEFT "選択範囲の箇条書きを解除する\n箇条書き解除"
+    ID_MARK_JUMP_NEXT       "次のﾌﾞｯｸﾏｰｸへｼﾞｬﾝﾌﾟ\n次のﾏｰｸ"
+    ID_MARK_REMOVEALL       "行ﾏｰｸを全て削除する\n行ﾏｰｸ全削除"
+    ID_FIND_BRACKET         "対応するもう一方の括弧を見つける\n対応括弧"
+    ID_INPUT_MARK           "直前の編集位置へｼﾞｬﾝﾌﾟする\nｲﾝﾌﾟｯﾄﾏｰｸ"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CONFIG_EDIT          "設定の管理編集をします\n設定の管理"
+    ID_SELENV_NORMAL        "現在表示中の画面を標準設定にします\n標準設定"
+    ID_SELENV_START1        "設定変更"
+    ID_SELENV_START2        "設定変更"
+    ID_SELENV_START3        "設定変更"
+    ID_SELENV_START4        "設定変更"
+    ID_SELENV_START5        "設定変更"
+    ID_SELENV_START6        "設定変更"
+    ID_SELENV_START7        "設定変更"
+    ID_SELENV_START8        "設定変更"
+    ID_SELENV_START9        "設定変更"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELENV_START10       "設定変更"
+    ID_SELENV_START11       "設定変更"
+    ID_SELENV_START12       "設定変更"
+    ID_SELENV_START13       "設定変更"
+    ID_SELENV_START14       "設定変更"
+    ID_SELENV_START15       "設定変更"
+    ID_SELENV_START16       "設定変更"
+    ID_SELENV_START17       "設定変更"
+    ID_SELENV_START18       "設定変更"
+    ID_SELENV_START19       "設定変更"
+    ID_SELENV_START20       "設定変更"
+    ID_SELENV_START21       "設定変更"
+    ID_SELENV_START22       "設定変更"
+    ID_SELENV_START23       "設定変更"
+    ID_SELENV_START24       "設定変更"
+    ID_SELENV_START25       "設定変更"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CRJ_OK              "ユーザIDは受理されました。この度はまことにありがとうございました。尚、念のためユーザIDは忘れずにメモしておいて下さい。ではごゆっくりお使い下さい。"
+    IDS_CRJ_NG              "ユーザーIDは無効です。正式のユーザIDか、指定記号を入力して下さい。"
+    IDS_CRJ_OVER            "試用期限がきれました。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VERSION             "CoolMint Yellow Version 1.36\n       Copyright (C) 1998.4 -1999.7"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_4             "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_5             "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_6             "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_7             "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_8             "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_9             "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_10            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_11            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_12            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_13            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_14            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_15            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_16            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_17            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_18            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_19            "ｳｨﾝﾄﾞｳ表示切替"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_20            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_21            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_22            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_23            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_24            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_25            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_26            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_27            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_28            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_29            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_WINDOW_30            "ｳｨﾝﾄﾞｳ表示切替"
+    ID_APP_ONLYONE          "ﾐﾝﾄを単一起動ﾓｰﾄﾞにする\n単一起動ﾓｰﾄﾞ"
+    ID_EXEC_APP             "ﾐﾝﾄをもう一つ起動する\n他のﾐﾝﾄ起動"
+    ID_INDICATOR_FONT_PT    "256.7 pt"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TAGJUMP              "指定ファイル&行へﾀｸﾞｼﾞｬﾝﾌﾟします\nﾀｸﾞｼﾞｬﾝﾌﾟ"
+    ID_WINDOW_OTHERS        "ｳｨﾝﾄﾞｳの一覧ﾘｽﾄを表示する\nｳｨﾝﾄﾞｳ一覧"
+    IDS_CONFIG              "設定"
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英語 (米国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_STATEICONS          BITMAP                  "res\\stateico.bmp"
+#endif    // 英語 (米国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif
+#include "res\The.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#include "l.jpn\afxprint.rc"        // 印刷/印刷プレビュー リソース
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
